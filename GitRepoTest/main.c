@@ -6,9 +6,11 @@
  */
 
 #include <stdio.h>
+#include "functii.h"
 
 int main()
 {
-	printf("Hello World!");
+	printf("Hello World!\n");
+	printf("Suma numere 2 + 3: %d",sumaNumere(2,3));
 	return 0;
 }
